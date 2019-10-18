@@ -1,0 +1,151 @@
+body {
+    font-family: sans-serif;
+    color: black;
+}
+
+.center-content {
+    margin: auto;
+    width: 98%;
+}
+
+
+.blocktext {
+    display: block;
+    font-size: .5em;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-bg {
+    background-color: rgb(196, 188, 188);
+    font-size: 1.5em;
+    border: 2px solid black;
+    display: block;
+}
+
+
+.t1 {
+    background-color: rgb(241, 159, 191);
+}
+
+.t2 {
+    background-color: rgb(223, 70, 70);
+}
+
+.t3 {
+    background-color: rgb(236, 236, 138);
+}
+
+/*desktop*/
+@media(min-width:992px) {
+
+    .chicken,
+    .beef,
+    .sushi {
+        height: auto;
+        margin-left: auto;
+        margin-right: 15px;
+        width: 30%;
+        float: left;
+        text-align: left;
+        align-items: center;
+    }
+}
+
+h3 {
+    float: right;
+    align-items: flex-end;
+    font-size: 30px;
+}
+
+
+.tag {
+    border: 2px solid black;
+    font-weight: 600;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .50em;
+    margin-top: 0px;
+}
+
+
+/*tablet*/
+@media(min-width:768px) and (max-width:991px) {
+    div {
+        height: auto;
+        margin-left: auto;
+        margin-right: 2px;
+        margin-top: 20px;
+        width: 60%;
+        float: left;
+        padding: 10px 10px;
+    }
+
+    .chicken {
+        height: auto;
+        margin-left: auto;
+        margin-right: 15px;
+        width: 47%;
+        float: left;
+    }
+
+    .beef {
+        height: auto;
+        margin-left: auto;
+        margin-right: 15px;
+        width: 47%;
+        float: left;
+    }
+
+    .sushi {
+        height: 150px;
+        margin-left: auto;
+        margin-right: 2px;
+        margin-top: 20px;
+        width: 97%;
+        float: left;
+    }
+
+    .tag {
+        border: 2px solid black;
+        font-weight: 600;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: .50em;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .box {
+        display: block;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+}
+
+/*mobile*/
+@media(max-width:767px) {
+
+    div {
+        display: block;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        width: 90%;
+        float: left;
+    }
+}
